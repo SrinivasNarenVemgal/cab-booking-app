@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment files (NEVER commit these)
+.env
+.env.local
+.env.production
+
+# Build outputs
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Coverage
+coverage/
